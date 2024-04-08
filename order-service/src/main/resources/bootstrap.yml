@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: orderservice
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.200.129:8848
+        file-extension: yaml
+  profiles:
+    active: dev
